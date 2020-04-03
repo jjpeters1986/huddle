@@ -1,0 +1,73 @@
+body {
+    background-image: url(imgs/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+header {
+    margin: 0 50px;
+}
+
+main {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+button {
+    font-size: 1.5rem;
+    color: hsl(257, 40%, 49%);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    border: none;
+}
+
+.web-mockup {
+    max-width: 100%; 
+    height: auto;
+}
+
+.main-box-1 {
+    width: 625px;
+    padding: 20px;
+}
+
+.main-box-2 {
+    width: 625px;
+    padding: 20px;
+    
+}
+
+.fab {
+    width: 100px;
+    color: white;
+}
+
+footer div {
+    text-align: right;
+    margin: 0 50px;
+}
